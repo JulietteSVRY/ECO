@@ -1,0 +1,92 @@
+/* General styles */
+html {
+    background-image: url(eco.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #333;
+}
+
+/* Header styles */
+
+header {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 30px;
+    margin-right: 700px;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+
+p {
+    font-size: 30px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 120%;
+}
+
+nav li {
+    margin: 0 10px;
+
+}
+
+nav a {
+    text-decoration: none;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    color: #fff;
+}
+
+/* Main content styles */
+
+main {
+    padding: 20px;
+    color: white;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+
+h2 {
+    font-size: 34px;
+    color: #fff;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+
+/* Footer styles */
+
+footer {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+
+}
+
+.learn-more-btn {
+    background-color: #2ecc71;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 40px;
+}
